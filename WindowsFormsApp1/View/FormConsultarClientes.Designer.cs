@@ -46,12 +46,11 @@
             this.BTNcadastrarCli = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.GBcliente = new System.Windows.Forms.GroupBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.BTNPesquisar1 = new System.Windows.Forms.Button();
             this.PBlogo = new System.Windows.Forms.PictureBox();
             this.BTNAlterar = new System.Windows.Forms.Button();
             this.BTNsair = new System.Windows.Forms.Button();
-            this.BTNPesquisar1 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtgclientes)).BeginInit();
             this.GBcliente.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PBlogo)).BeginInit();
@@ -245,6 +244,30 @@
             this.GBcliente.Text = "Dados do cliente";
             this.GBcliente.Enter += new System.EventHandler(this.GBcliente_Enter);
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(426, 177);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 17;
+            this.button2.Text = "Todos";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // BTNPesquisar1
+            // 
+            this.BTNPesquisar1.BackColor = System.Drawing.Color.Transparent;
+            this.BTNPesquisar1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BTNPesquisar1.BackgroundImage")));
+            this.BTNPesquisar1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BTNPesquisar1.Location = new System.Drawing.Point(508, 177);
+            this.BTNPesquisar1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.BTNPesquisar1.Name = "BTNPesquisar1";
+            this.BTNPesquisar1.Size = new System.Drawing.Size(64, 64);
+            this.BTNPesquisar1.TabIndex = 12;
+            this.BTNPesquisar1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.BTNPesquisar1.UseVisualStyleBackColor = false;
+            this.BTNPesquisar1.Click += new System.EventHandler(this.btnpesquisar_Click);
+            // 
             // PBlogo
             // 
             this.PBlogo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PBlogo.BackgroundImage")));
@@ -284,45 +307,11 @@
             this.BTNsair.UseVisualStyleBackColor = false;
             this.BTNsair.Click += new System.EventHandler(this.BTNsair_Click);
             // 
-            // BTNPesquisar1
-            // 
-            this.BTNPesquisar1.BackColor = System.Drawing.Color.Transparent;
-            this.BTNPesquisar1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BTNPesquisar1.BackgroundImage")));
-            this.BTNPesquisar1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BTNPesquisar1.Location = new System.Drawing.Point(508, 177);
-            this.BTNPesquisar1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.BTNPesquisar1.Name = "BTNPesquisar1";
-            this.BTNPesquisar1.Size = new System.Drawing.Size(64, 64);
-            this.BTNPesquisar1.TabIndex = 12;
-            this.BTNPesquisar1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.BTNPesquisar1.UseVisualStyleBackColor = false;
-            this.BTNPesquisar1.Click += new System.EventHandler(this.btnpesquisar_Click);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(1083, 252);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 21;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(426, 177);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 17;
-            this.button2.Text = "Todos";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // frmconsultarclientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 692);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.BTNsair);
             this.Controls.Add(this.BTNAlterar);
             this.Controls.Add(this.PBlogo);
@@ -367,6 +356,5 @@
         private System.Windows.Forms.Button BTNsair;
         private System.Windows.Forms.Button BTNPesquisar1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
     }
 }
