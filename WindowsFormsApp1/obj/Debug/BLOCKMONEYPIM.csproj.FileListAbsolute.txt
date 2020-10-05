@@ -1,0 +1,50 @@
+C:\Users\dirce\Desktop\PIM\PIM\pim 4\PIMDesktop\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\dirce\Desktop\PIM\PIM\pim 4\PIMDesktop\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\dirce\Desktop\PIM\PIM\pim 4\PIMDesktop\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\dirce\Desktop\PIM\PIM\pim 4\PIMDesktop\WindowsFormsApp1\obj\Debug\BLOCKMONEYPIM.csprojAssemblyReference.cache
+C:\Users\dirce\Desktop\PIM\PIM\pim 4\PIMDesktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormCadastrarCliente.resources
+C:\Users\dirce\Desktop\PIM\PIM\pim 4\PIMDesktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmconsultarclientes.resources
+C:\Users\dirce\Desktop\PIM\PIM\pim 4\PIMDesktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormInicial.resources
+C:\Users\dirce\Desktop\PIM\PIM\pim 4\PIMDesktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmlogin.resources
+C:\Users\dirce\Desktop\PIM\PIM\pim 4\PIMDesktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\dirce\Desktop\PIM\PIM\pim 4\PIMDesktop\WindowsFormsApp1\obj\Debug\BLOCKMONEYPIM.csproj.GenerateResource.cache
+C:\Users\dirce\Desktop\PIM\PIM\pim 4\PIMDesktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\dirce\Desktop\PIM\PIM\pim 4\PIMDesktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\dirce\Desktop\PIM\PIM\pim 4\PIMDesktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormTransacoes.resources
+C:\Users\dirce\Desktop\PIM\PIM\pim 4\PIMDesktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formexclusao.resources
+C:\Users\dirce\Desktop\PIM\PIM\pim 4\PIMDesktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormRelatorio.resources
+C:\Users\dirce\Desktop\PIM\PIM\pim 4\PIMDesktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+E:\dowloads\WindowsFormsApp1 (3)\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+E:\dowloads\WindowsFormsApp1 (3)\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+E:\dowloads\WindowsFormsApp1 (3)\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+E:\dowloads\WindowsFormsApp1 (3)\WindowsFormsApp1\obj\Debug\BLOCKMONEYPIM.csprojAssemblyReference.cache
+E:\dowloads\WindowsFormsApp1 (3)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+E:\dowloads\WindowsFormsApp1 (3)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormTransacoes.resources
+E:\dowloads\WindowsFormsApp1 (3)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formexclusao.resources
+E:\dowloads\WindowsFormsApp1 (3)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormCadastrarCliente.resources
+E:\dowloads\WindowsFormsApp1 (3)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmconsultarclientes.resources
+E:\dowloads\WindowsFormsApp1 (3)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormInicial.resources
+E:\dowloads\WindowsFormsApp1 (3)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmlogin.resources
+E:\dowloads\WindowsFormsApp1 (3)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormRelatorio.resources
+E:\dowloads\WindowsFormsApp1 (3)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\dowloads\WindowsFormsApp1 (3)\WindowsFormsApp1\obj\Debug\BLOCKMONEYPIM.csproj.GenerateResource.cache
+E:\dowloads\WindowsFormsApp1 (3)\WindowsFormsApp1\obj\Debug\BLOCKMONEYPIM.csproj.CoreCompileInputs.cache
+E:\dowloads\WindowsFormsApp1 (3)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+E:\dowloads\WindowsFormsApp1 (3)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\lucianoq\Desktop\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\lucianoq\Desktop\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\lucianoq\Desktop\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\lucianoq\Desktop\WindowsFormsApp1\obj\Debug\BLOCKMONEYPIM.csprojAssemblyReference.cache
+C:\Users\lucianoq\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\Users\lucianoq\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormTransacoes.resources
+C:\Users\lucianoq\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formexclusao.resources
+C:\Users\lucianoq\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormCadastrarCliente.resources
+C:\Users\lucianoq\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmconsultarclientes.resources
+C:\Users\lucianoq\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormInicial.resources
+C:\Users\lucianoq\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmlogin.resources
+C:\Users\lucianoq\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormRelatorio.resources
+C:\Users\lucianoq\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\lucianoq\Desktop\WindowsFormsApp1\obj\Debug\BLOCKMONEYPIM.csproj.GenerateResource.cache
+C:\Users\lucianoq\Desktop\WindowsFormsApp1\obj\Debug\BLOCKMONEYPIM.csproj.CoreCompileInputs.cache
+C:\Users\lucianoq\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\lucianoq\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

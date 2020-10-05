@@ -1,0 +1,11 @@
+C:\Users\dirce\Desktop\PIM\PIM\pim 4\PIMDesktop\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\dirce\Desktop\PIM\PIM\pim 4\PIMDesktop\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\dirce\Desktop\PIM\PIM\pim 4\PIMDesktop\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\dirce\Desktop\PIM\PIM\pim 4\PIMDesktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\dirce\Desktop\PIM\PIM\pim 4\PIMDesktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormInicial.resources
+C:\Users\dirce\Desktop\PIM\PIM\pim 4\PIMDesktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmlogin.resources
+C:\Users\dirce\Desktop\PIM\PIM\pim 4\PIMDesktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\dirce\Desktop\PIM\PIM\pim 4\PIMDesktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\dirce\Desktop\PIM\PIM\pim 4\PIMDesktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\dirce\Desktop\PIM\PIM\pim 4\PIMDesktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\dirce\Desktop\PIM\PIM\pim 4\PIMDesktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmconsultarclientes.resources
