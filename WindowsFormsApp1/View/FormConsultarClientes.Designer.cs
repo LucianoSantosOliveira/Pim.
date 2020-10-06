@@ -46,11 +46,12 @@
             this.BTNcadastrarCli = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.GBcliente = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.BTNSelecionaTodos = new System.Windows.Forms.Button();
             this.BTNPesquisar1 = new System.Windows.Forms.Button();
             this.PBlogo = new System.Windows.Forms.PictureBox();
             this.BTNAlterar = new System.Windows.Forms.Button();
             this.BTNsair = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtgclientes)).BeginInit();
             this.GBcliente.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PBlogo)).BeginInit();
@@ -222,7 +223,8 @@
             // 
             // GBcliente
             // 
-            this.GBcliente.Controls.Add(this.button2);
+            this.GBcliente.Controls.Add(this.button1);
+            this.GBcliente.Controls.Add(this.BTNSelecionaTodos);
             this.GBcliente.Controls.Add(this.label1);
             this.GBcliente.Controls.Add(this.BTNcadastrarCli);
             this.GBcliente.Controls.Add(this.TxtID);
@@ -244,15 +246,15 @@
             this.GBcliente.Text = "Dados do cliente";
             this.GBcliente.Enter += new System.EventHandler(this.GBcliente_Enter);
             // 
-            // button2
+            // BTNSelecionaTodos
             // 
-            this.button2.Location = new System.Drawing.Point(426, 177);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 17;
-            this.button2.Text = "Todos";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.BTNSelecionaTodos.Location = new System.Drawing.Point(412, 177);
+            this.BTNSelecionaTodos.Name = "BTNSelecionaTodos";
+            this.BTNSelecionaTodos.Size = new System.Drawing.Size(75, 64);
+            this.BTNSelecionaTodos.TabIndex = 17;
+            this.BTNSelecionaTodos.Text = "Todos";
+            this.BTNSelecionaTodos.UseVisualStyleBackColor = true;
+            this.BTNSelecionaTodos.Click += new System.EventHandler(this.button2_Click);
             // 
             // BTNPesquisar1
             // 
@@ -307,6 +309,9 @@
             this.BTNsair.UseVisualStyleBackColor = false;
             this.BTNsair.Click += new System.EventHandler(this.BTNsair_Click);
             // 
+            // button1
+            //                    
+            // 
             // frmconsultarclientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -355,6 +360,7 @@
         private System.Windows.Forms.Button BTNAlterar;
         private System.Windows.Forms.Button BTNsair;
         private System.Windows.Forms.Button BTNPesquisar1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button BTNSelecionaTodos;
+        private System.Windows.Forms.Button button1;
     }
 }

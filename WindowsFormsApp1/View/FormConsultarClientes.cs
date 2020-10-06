@@ -27,6 +27,7 @@ namespace WindowsFormsApp1
 
         private void frmconsultarclientes_Load(object sender, EventArgs e)
         {
+            //Transparencia dos botoes
             BTNPesquisar1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             BTNPesquisar1.FlatAppearance.BorderSize = 0;
             BTNPesquisar1.FlatAppearance.MouseDownBackColor = Color.FromArgb(0, 197, 150);
@@ -39,7 +40,9 @@ namespace WindowsFormsApp1
             BTNcadastrarCli.FlatAppearance.MouseOverBackColor = Color.FromArgb(0, 197, 150);
             BTNcadastrarCli.BackColor = Color.Transparent;
 
+            // Cor de fundo do form
             this.BackColor = Color.FromArgb(0, 197, 162);
+
             dtgclientes.AllowUserToAddRows = false;
             dtgclientes.AllowUserToDeleteRows = false;
         }
@@ -61,7 +64,6 @@ namespace WindowsFormsApp1
         private void btnlimpar_Click(object sender, EventArgs e)
         {
             txtnome.Text = ""; maskednasc.Text = "" ;  maskedcpf.Text = "";
-
 
         }
 
@@ -107,11 +109,13 @@ namespace WindowsFormsApp1
 
         }
 
+        //BtnSelecionaTodos
         private void button2_Click(object sender, EventArgs e)
         {
-            //Cliente cliente = new Cliente();
-           // ConectaSQL conectaSQL = new ConectaSQL();
-            //conectaSQL.ConsultarClientes(cliente, false);
+            Cliente cliente = new Cliente();
+            ConectaSQL conectaSQL = new ConectaSQL();
+            conectaSQL.ConsultarClientes(null, true);
+            dtgclientes.DataSource = conectaSQL.getDataTable;
         }
     }
 }

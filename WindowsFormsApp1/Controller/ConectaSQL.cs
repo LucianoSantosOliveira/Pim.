@@ -25,7 +25,7 @@ namespace WindowsFormsApp1
 
             if (todos == true)
             {
-                sqlConsulta = "SELECT * FROM CLIENTE1 ";
+                sqlConsulta = "SELECT * FROM CLIENTE1";
                 SqlCommand sqlCommand = new SqlCommand(sqlConsulta, sqlConnection);
                 SqlDataAdapter dataAdapter = new SqlDataAdapter(sqlConsulta, sqlConnection);
 
@@ -41,7 +41,7 @@ namespace WindowsFormsApp1
                     throw ex;
                 }
 
-            }
+            } else
 
             if (string.IsNullOrEmpty(cliente.getNome()))
             {
