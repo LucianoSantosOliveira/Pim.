@@ -26,7 +26,7 @@ namespace WindowsFormsApp1
             cpf = "";
             dataNacimento = "";
         }
-
+       // CriptoMoedas
 
         public void setUf(string uf) { this.uf = uf; }
         public void setNome(string nome) { this.nome = nome; }

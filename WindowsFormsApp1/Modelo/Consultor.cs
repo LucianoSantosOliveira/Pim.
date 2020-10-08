@@ -8,6 +8,6 @@ namespace WindowsFormsApp1.Modelo
 {
     class Consultor : Usuario
     {
-
+       
     }
 }

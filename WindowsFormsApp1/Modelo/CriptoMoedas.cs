@@ -12,7 +12,7 @@ namespace WindowsFormsApp1.Modelo
         private float cotacao;
         private string idMoeda;
         private int id;
-
+        
         public CriptoMoedas(string nome, float cotacao, string idMoeda, int id)
         {
             this.Nome = nome;
@@ -20,7 +20,6 @@ namespace WindowsFormsApp1.Modelo
             this.IdMoeda = idMoeda;
             this.Id = id;
         }
-
 
         public string IdMoeda { get => idMoeda; set => idMoeda = value; }
         public int Id { get => id; set => id = value; }

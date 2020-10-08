@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp1.Modelo;
 
 namespace WindowsFormsApp1
 {
@@ -20,6 +21,8 @@ namespace WindowsFormsApp1
         private void FormTransacoes_Load(object sender, EventArgs e)
         {
             this.BackColor = Color.FromArgb(0, 197, 162);
+            //CriptoMoedas 
+            //CriptoMoedas criptoMoedas = new Modelo.CriptoMoedas();
         }
     }
 }

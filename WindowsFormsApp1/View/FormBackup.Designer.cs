@@ -29,14 +29,13 @@
         private void InitializeComponent()
         {
             this.label2 = new System.Windows.Forms.Label();
-            this.rdbdemaistransacoes = new System.Windows.Forms.RadioButton();
             this.rdbcriptomoedas = new System.Windows.Forms.RadioButton();
             this.rdbsmart = new System.Windows.Forms.RadioButton();
             this.gbbackup = new System.Windows.Forms.GroupBox();
-            this.btnprosseguir = new System.Windows.Forms.Button();
-            this.LBLUltimo = new System.Windows.Forms.Label();
-            this.LblUltimoBack = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.LblUltimoBack = new System.Windows.Forms.Label();
+            this.LBLUltimo = new System.Windows.Forms.Label();
+            this.btnprosseguir = new System.Windows.Forms.Button();
             this.gbbackup.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,18 +48,6 @@
             this.label2.Size = new System.Drawing.Size(281, 20);
             this.label2.TabIndex = 9;
             this.label2.Text = "Selecione uma operação para backup:";
-            // 
-            // rdbdemaistransacoes
-            // 
-            this.rdbdemaistransacoes.AutoSize = true;
-            this.rdbdemaistransacoes.Location = new System.Drawing.Point(7, 205);
-            this.rdbdemaistransacoes.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.rdbdemaistransacoes.Name = "rdbdemaistransacoes";
-            this.rdbdemaistransacoes.Size = new System.Drawing.Size(171, 24);
-            this.rdbdemaistransacoes.TabIndex = 8;
-            this.rdbdemaistransacoes.TabStop = true;
-            this.rdbdemaistransacoes.Text = "Demais transações";
-            this.rdbdemaistransacoes.UseVisualStyleBackColor = true;
             // 
             // rdbcriptomoedas
             // 
@@ -94,7 +81,6 @@
             this.gbbackup.Controls.Add(this.btnprosseguir);
             this.gbbackup.Controls.Add(this.label2);
             this.gbbackup.Controls.Add(this.rdbsmart);
-            this.gbbackup.Controls.Add(this.rdbdemaistransacoes);
             this.gbbackup.Controls.Add(this.rdbcriptomoedas);
             this.gbbackup.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gbbackup.Location = new System.Drawing.Point(0, 0);
@@ -107,24 +93,15 @@
             this.gbbackup.Text = "Backup Blockchain";
             this.gbbackup.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // btnprosseguir
+            // checkBox1
             // 
-            this.btnprosseguir.Location = new System.Drawing.Point(348, 261);
-            this.btnprosseguir.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnprosseguir.Name = "btnprosseguir";
-            this.btnprosseguir.Size = new System.Drawing.Size(112, 35);
-            this.btnprosseguir.TabIndex = 10;
-            this.btnprosseguir.Text = "Prosseguir";
-            this.btnprosseguir.UseVisualStyleBackColor = true;
-            // 
-            // LBLUltimo
-            // 
-            this.LBLUltimo.AutoSize = true;
-            this.LBLUltimo.Location = new System.Drawing.Point(411, 44);
-            this.LBLUltimo.Name = "LBLUltimo";
-            this.LBLUltimo.Size = new System.Drawing.Size(120, 20);
-            this.LBLUltimo.TabIndex = 11;
-            this.LBLUltimo.Text = "Ultimo Backup :";
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(415, 80);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(184, 24);
+            this.checkBox1.TabIndex = 13;
+            this.checkBox1.Text = "BackUp automatico?";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // LblUltimoBack
             // 
@@ -135,15 +112,24 @@
             this.LblUltimoBack.TabIndex = 12;
             this.LblUltimoBack.Text = "LblUltimoBack";
             // 
-            // checkBox1
+            // LBLUltimo
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(415, 80);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(184, 24);
-            this.checkBox1.TabIndex = 13;
-            this.checkBox1.Text = "BackUp automatico?";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.LBLUltimo.AutoSize = true;
+            this.LBLUltimo.Location = new System.Drawing.Point(411, 44);
+            this.LBLUltimo.Name = "LBLUltimo";
+            this.LBLUltimo.Size = new System.Drawing.Size(120, 20);
+            this.LBLUltimo.TabIndex = 11;
+            this.LBLUltimo.Text = "Ultimo Backup :";
+            // 
+            // btnprosseguir
+            // 
+            this.btnprosseguir.Location = new System.Drawing.Point(348, 261);
+            this.btnprosseguir.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnprosseguir.Name = "btnprosseguir";
+            this.btnprosseguir.Size = new System.Drawing.Size(112, 35);
+            this.btnprosseguir.TabIndex = 10;
+            this.btnprosseguir.Text = "Prosseguir";
+            this.btnprosseguir.UseVisualStyleBackColor = true;
             // 
             // FRMBackup
             // 
@@ -163,7 +149,6 @@
         #endregion
 
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.RadioButton rdbdemaistransacoes;
         private System.Windows.Forms.RadioButton rdbcriptomoedas;
         private System.Windows.Forms.RadioButton rdbsmart;
         private System.Windows.Forms.GroupBox gbbackup;

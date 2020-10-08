@@ -52,7 +52,6 @@ C:\Users\lucianoq\source\repos\PIMM\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.
 C:\Users\lucianoq\source\repos\PIMM\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
 C:\Users\lucianoq\source\repos\PIMM\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
 C:\Users\lucianoq\source\repos\PIMM\WindowsFormsApp1\obj\Debug\BLOCKMONEYPIM.csprojAssemblyReference.cache
-C:\Users\lucianoq\source\repos\PIMM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
 C:\Users\lucianoq\source\repos\PIMM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormTransacoes.resources
 C:\Users\lucianoq\source\repos\PIMM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Formexclusao.resources
 C:\Users\lucianoq\source\repos\PIMM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormCadastrarCliente.resources
@@ -65,3 +64,4 @@ C:\Users\lucianoq\source\repos\PIMM\WindowsFormsApp1\obj\Debug\BLOCKMONEYPIM.csp
 C:\Users\lucianoq\source\repos\PIMM\WindowsFormsApp1\obj\Debug\BLOCKMONEYPIM.csproj.CoreCompileInputs.cache
 C:\Users\lucianoq\source\repos\PIMM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\lucianoq\source\repos\PIMM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\lucianoq\source\repos\PIMM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FRMBackup.resources

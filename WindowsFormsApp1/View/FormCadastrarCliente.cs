@@ -86,7 +86,7 @@ namespace WindowsFormsApp1
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void BTNConfirmar_Click(object sender, EventArgs e)
@@ -101,7 +101,7 @@ namespace WindowsFormsApp1
             cliente.setCpf(mskcpf.Text);
             //cliente.setDataNacimento();
             conectaSQL.InserirCliente(cliente);
-           
+          //  CriptoMoedas criptoMoedas = new CriptoMoedas();
             Close();
         }
     }

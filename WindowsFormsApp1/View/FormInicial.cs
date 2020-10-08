@@ -67,7 +67,8 @@ namespace WindowsFormsApp1
 
         private void mnbackup_Click(object sender, EventArgs e)
         {
-
+            FRMBackup fRMBackup = new FRMBackup();
+            fRMBackup.Show();
         }
 
         private void mnrelatorio_Click(object sender, EventArgs e)
