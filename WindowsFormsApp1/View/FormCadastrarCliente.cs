@@ -101,6 +101,7 @@ namespace WindowsFormsApp1
             cliente.setCpf(mskcpf.Text);
             //cliente.setDataNacimento();
             conectaSQL.InserirCliente(cliente);
+           
             Close();
         }
     }

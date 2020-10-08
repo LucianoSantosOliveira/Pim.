@@ -13,8 +13,6 @@ namespace WindowsFormsApp1
         string sqlConsulta;
         string sqlCon = "Data Source =.; Initial Catalog = Pim; Integrated Security = True";
         DataTable dataTable = new DataTable();
-
- 
         
         public void ConsultarClientes(Cliente cliente,bool todos)//Read
         {
