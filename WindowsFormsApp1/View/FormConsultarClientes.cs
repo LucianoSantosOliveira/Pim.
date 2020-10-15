@@ -95,8 +95,6 @@ namespace WindowsFormsApp1
             Cliente cliente = new Cliente();
             ConectaSQL conectaSQL = new ConectaSQL();
 
-            //cliente.setTelefone()
-
         }
 
         private void BTNsair_Click(object sender, EventArgs e)
@@ -104,11 +102,7 @@ namespace WindowsFormsApp1
             this.Close();
         }
 
-        private void GBcliente_Enter(object sender, EventArgs e)
-        {
-
-        }
-
+      
         //BtnSelecionaTodos
         private void button2_Click(object sender, EventArgs e)
         {

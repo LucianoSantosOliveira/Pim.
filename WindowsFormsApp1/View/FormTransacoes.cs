@@ -21,8 +21,7 @@ namespace WindowsFormsApp1
         private void FormTransacoes_Load(object sender, EventArgs e)
         {
             this.BackColor = Color.FromArgb(0, 197, 162);
-            //CriptoMoedas 
-            //CriptoMoedas criptoMoedas = new Modelo.CriptoMoedas();
+            CriptoMoedas criptoMoedas = new CriptoMoedas();
         }
     }
 }

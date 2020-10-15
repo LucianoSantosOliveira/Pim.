@@ -26,7 +26,8 @@ namespace WindowsFormsApp1
             cpf = "";
             dataNacimento = "";
         }
-       // CriptoMoedas
+      
+      
 
         public void setUf(string uf) { this.uf = uf; }
         public void setNome(string nome) { this.nome = nome; }
@@ -42,6 +43,10 @@ namespace WindowsFormsApp1
 
         //get
 
+        public void InserirUser() { ConectaSQL conecta = new ConectaSQL(); }
+        public void DeletarUser(Cliente cliente) { ConectaSQL conecta = new ConectaSQL();  }
+        public void AlterarUser(Cliente cliente) { ConectaSQL conecta = new ConectaSQL();  }
+        public void SelecionarUser() { ConectaSQL conecta = new ConectaSQL(); }
 
         public float getValorContaCriptoAtivo() { return this.valorContaCriptoativo; }
         public string getUF() { return this.uf; }

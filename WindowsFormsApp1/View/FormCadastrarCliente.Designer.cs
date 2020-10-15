@@ -53,7 +53,7 @@
             this.msktelefone = new System.Windows.Forms.MaskedTextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.BTNConfirmar = new System.Windows.Forms.Button();
-            this.datapicker = new System.Windows.Forms.DateTimePicker();
+            this.DPCliente = new System.Windows.Forms.DateTimePicker();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -309,7 +309,7 @@
             // 
             // BTNConfirmar
             // 
-            this.BTNConfirmar.Location = new System.Drawing.Point(944, 494);
+            this.BTNConfirmar.Location = new System.Drawing.Point(496, 428);
             this.BTNConfirmar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BTNConfirmar.Name = "BTNConfirmar";
             this.BTNConfirmar.Size = new System.Drawing.Size(185, 133);
@@ -318,19 +318,19 @@
             this.BTNConfirmar.UseVisualStyleBackColor = true;
             this.BTNConfirmar.Click += new System.EventHandler(this.BTNConfirmar_Click);
             // 
-            // datapicker
+            // DPCliente
             // 
-            this.datapicker.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.datapicker.Location = new System.Drawing.Point(78, 405);
-            this.datapicker.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.datapicker.Name = "datapicker";
-            this.datapicker.Size = new System.Drawing.Size(344, 26);
-            this.datapicker.TabIndex = 37;
+            this.DPCliente.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.DPCliente.Location = new System.Drawing.Point(78, 405);
+            this.DPCliente.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.DPCliente.Name = "DPCliente";
+            this.DPCliente.Size = new System.Drawing.Size(344, 26);
+            this.DPCliente.TabIndex = 37;
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.BTNConfirmar);
-            this.groupBox1.Controls.Add(this.datapicker);
+            this.groupBox1.Controls.Add(this.DPCliente);
             this.groupBox1.Controls.Add(this.lblendereco);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.cmbestadocivil);
@@ -361,7 +361,7 @@
             this.groupBox1.Size = new System.Drawing.Size(1142, 635);
             this.groupBox1.TabIndex = 38;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.groupBox1.Text = "Cadastrar Cliente";
             // 
             // FormCadastrarCliente
             // 
@@ -405,7 +405,7 @@
         private System.Windows.Forms.MaskedTextBox msktelefone;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button BTNConfirmar;
-        private System.Windows.Forms.DateTimePicker datapicker;
+        private System.Windows.Forms.DateTimePicker DPCliente;
         private System.Windows.Forms.GroupBox groupBox1;
     }
 }

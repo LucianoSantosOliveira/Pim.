@@ -243,8 +243,7 @@
             this.GBcliente.Size = new System.Drawing.Size(695, 267);
             this.GBcliente.TabIndex = 17;
             this.GBcliente.TabStop = false;
-            this.GBcliente.Text = "Dados do cliente";
-            this.GBcliente.Enter += new System.EventHandler(this.GBcliente_Enter);
+            this.GBcliente.Text = "Dados do cliente";            
             // 
             // BTNSelecionaTodos
             // 

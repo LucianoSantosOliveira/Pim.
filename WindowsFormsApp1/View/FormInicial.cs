@@ -90,5 +90,12 @@ namespace WindowsFormsApp1
         {
             this.Close();
         }
+
+        private void cadastrarNovoUsuárioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormCadastrarCliente cadastrarUser = new FormCadastrarCliente();
+            cadastrarUser.NomeGB("Cadastrar Usuário");
+            cadastrarUser.Show();
+        }
     }
 }

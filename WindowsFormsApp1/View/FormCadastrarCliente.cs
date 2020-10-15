@@ -15,7 +15,7 @@ namespace WindowsFormsApp1
         public FormCadastrarCliente()
         {
             InitializeComponent();
-
+            this.StartPosition = FormStartPosition.CenterScreen;
             this.BackColor = Color.FromArgb(0, 197, 162);
         }
 
@@ -42,6 +42,7 @@ namespace WindowsFormsApp1
         private void FormCadastrarCliente_Load(object sender, EventArgs e)
         {
             this.BackColor = Color.FromArgb(0, 197, 162);
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void lblestadocivil_Click(object sender, EventArgs e)
@@ -93,16 +94,21 @@ namespace WindowsFormsApp1
         {
             ConectaSQL conectaSQL = new ConectaSQL();
             Cliente cliente = new Cliente();
-            cliente.contrutorCliente();
 
+            cliente.contrutorCliente();
             cliente.setNome(txtnome.Text);
             cliente.setEmail(txtemail.Text);
             cliente.setTelefone(msktelefone.Text);
             cliente.setCpf(mskcpf.Text);
-            //cliente.setDataNacimento();
-            conectaSQL.InserirCliente(cliente);
-          //  CriptoMoedas criptoMoedas = new CriptoMoedas();
+            cliente.Inserir();
+
             Close();
         }
+        public void NomeGB(string nome)
+        {
+            groupBox1.Text = nome;
+            BTNConfirmar.Visible = false;
+        }
+     
     }
 }

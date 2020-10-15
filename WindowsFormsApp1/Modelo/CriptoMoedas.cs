@@ -13,12 +13,22 @@ namespace WindowsFormsApp1.Modelo
         private string idMoeda;
         private int id;
         
-        public CriptoMoedas(string nome, float cotacao, string idMoeda, int id)
+        public CriptoMoedas()
         {
             this.Nome = nome;
             this.Cotacao = cotacao;
             this.IdMoeda = idMoeda;
             this.Id = id;
+        }
+
+        public void AtualizarCotacao(float cotacao)
+        {
+            this.cotacao = cotacao;
+        }
+
+        public void CadastrarCripmoeda()
+        {
+
         }
 
         public string IdMoeda { get => idMoeda; set => idMoeda = value; }
