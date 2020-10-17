@@ -56,9 +56,10 @@ namespace WindowsFormsApp1
             cliente.setConsultor(txtconsultor.Text);
             if (string.IsNullOrEmpty(TxtID.Text)) { TxtID.Text = "0"; } else { cliente.setID(Convert.ToInt32(TxtID.Text)); }          
             cliente.setCpf(maskedcpf.Text);
-            conectaSQL.ConsultarClientes(cliente , false);
+            cliente.Selecionar();
+            //conectaSQL.ConsultarClientes(cliente , false);
 
-            dtgclientes.DataSource = conectaSQL.getDataTable;
+            dtgclientes.DataSource = cliente.DataTable;
         }
 
         private void btnlimpar_Click(object sender, EventArgs e)

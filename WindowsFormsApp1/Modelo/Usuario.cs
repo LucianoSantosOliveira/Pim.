@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.SqlClient;
 
 namespace WindowsFormsApp1
 {
@@ -17,6 +18,10 @@ namespace WindowsFormsApp1
         string Email;
         float valorContaCriptoativo;
         string uf;
+        string login;
+        string senha;
+
+   
 
         public void contrutorCliente()
         {
@@ -26,9 +31,38 @@ namespace WindowsFormsApp1
             cpf = "";
             dataNacimento = "";
         }
-      
-      
 
+
+        public void VerificaLogin(string login)
+        {
+            string sqlConsulta;
+            string sqlCon = "Data Source =.; Initial Catalog = Pim; Integrated Security = True";
+            sqlConsulta = "SELECT Login From Usuario";
+            sqlCon = "Data Source =.; Initial Catalog = Pim; Integrated Security = True";
+            SqlConnection sqlConnection = new SqlConnection(sqlCon);
+            SqlCommand sqlCommand = new SqlCommand(sqlConsulta, sqlConnection);
+
+            sqlConnection.Open();
+            sqlCommand.ExecuteReader();
+            sqlConnection.Close();
+        }
+
+        public void VerificaSenha(string senha)
+        {
+            string sqlConsulta;
+            string sqlCon = "Data Source =.; Initial Catalog = Pim; Integrated Security = True";
+            sqlConsulta = "SELECT Senha From Usuario";
+            sqlCon = "Data Source =.; Initial Catalog = Pim; Integrated Security = True";
+            SqlConnection sqlConnection = new SqlConnection(sqlCon);
+            SqlCommand sqlCommand = new SqlCommand(sqlConsulta, sqlConnection);
+
+            sqlConnection.Open();
+            sqlCommand.ExecuteNonQuery();
+            sqlConnection.Close();
+        }
+
+        public string Senha { get => senha; set => senha = value; }
+        public string Login { get => login; set => login = value; }
         public void setUf(string uf) { this.uf = uf; }
         public void setNome(string nome) { this.nome = nome; }
         public void setConsultor(string consultor) { this.consultor = consultor; }

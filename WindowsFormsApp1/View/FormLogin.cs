@@ -21,7 +21,15 @@ namespace WindowsFormsApp1
 
         private void btnentrar_Click(object sender, EventArgs e)
         {
-            FormInicial formInicial = new FormInicial();      
+            Usuario usuario = new Usuario();
+
+            //usuario.Login = txtusuario.Text;
+            //usuario.Senha = txtsenha.Text;
+
+            usuario.VerificaLogin(txtusuario.Text);
+            usuario.VerificaSenha(txtsenha.Text);
+
+            FormInicial formInicial = new FormInicial();
             if(checkBox1.Checked == true)
             {
 
@@ -30,7 +38,9 @@ namespace WindowsFormsApp1
                 txtsenha.Text = "";
                 txtusuario.Text = "";
             }
-            formInicial.Show();
+            
+            if(String.IsNullOrEmpty(usuario.Login) || String.IsNullOrEmpty(usuario.Senha)) { MessageBox.Show("Usuario ou senha errado"); }
+            else { formInicial.Show(); MessageBox.Show(usuario.Login + " " + usuario.Senha); }
         }
 
         private void frmlogin_Load(object sender, EventArgs e)
