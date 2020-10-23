@@ -39,7 +39,7 @@ namespace WindowsFormsApp1
                 txtusuario.Text = "";
             }
             
-            if(String.IsNullOrEmpty(usuario.Login) || String.IsNullOrEmpty(usuario.Senha)) { MessageBox.Show("Usuario ou senha errado"); }
+            if(usuario.Login == false || usuario.Senha == false) { MessageBox.Show("Usuario ou senha errado"); }
             else { formInicial.Show(); MessageBox.Show(usuario.Login + " " + usuario.Senha); }
         }
 

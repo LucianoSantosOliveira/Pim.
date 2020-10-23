@@ -18,8 +18,8 @@ namespace WindowsFormsApp1
         string Email;
         float valorContaCriptoativo;
         string uf;
-        string login;
-        string senha;
+        bool login;
+        bool senha;
 
    
 
@@ -43,7 +43,8 @@ namespace WindowsFormsApp1
             SqlCommand sqlCommand = new SqlCommand(sqlConsulta, sqlConnection);
 
             sqlConnection.Open();
-            sqlCommand.ExecuteReader();
+            SqlDataReader dataReader = sqlCommand.ExecuteReader();
+            this.login = dataReader.HasRows;
             sqlConnection.Close();
         }
 
@@ -57,12 +58,13 @@ namespace WindowsFormsApp1
             SqlCommand sqlCommand = new SqlCommand(sqlConsulta, sqlConnection);
 
             sqlConnection.Open();
-            sqlCommand.ExecuteNonQuery();
+            SqlDataReader dataReader = sqlCommand.ExecuteReader();
+            this.senha = dataReader.HasRows;
             sqlConnection.Close();
         }
 
-        public string Senha { get => senha; set => senha = value; }
-        public string Login { get => login; set => login = value; }
+        public bool Senha { get => senha; set => senha = value; }
+        public bool Login { get => login; set => login = value; }
         public void setUf(string uf) { this.uf = uf; }
         public void setNome(string nome) { this.nome = nome; }
         public void setConsultor(string consultor) { this.consultor = consultor; }
