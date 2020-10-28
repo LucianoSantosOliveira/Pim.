@@ -37,7 +37,7 @@ namespace WindowsFormsApp1
         {
             string sqlConsulta;
             string sqlCon = "Data Source =.; Initial Catalog = Pim; Integrated Security = True";
-            sqlConsulta = "SELECT Login From Usuario";
+            sqlConsulta = "SELECT Login From Usuario WHERE Login = '" + login + "'";
             sqlCon = "Data Source =.; Initial Catalog = Pim; Integrated Security = True";
             SqlConnection sqlConnection = new SqlConnection(sqlCon);
             SqlCommand sqlCommand = new SqlCommand(sqlConsulta, sqlConnection);
@@ -52,7 +52,7 @@ namespace WindowsFormsApp1
         {
             string sqlConsulta;
             string sqlCon = "Data Source =.; Initial Catalog = Pim; Integrated Security = True";
-            sqlConsulta = "SELECT Senha From Usuario";
+            sqlConsulta = "SELECT Senha From Usuario WHERE Senha = '" + senha + "'";
             sqlCon = "Data Source =.; Initial Catalog = Pim; Integrated Security = True";
             SqlConnection sqlConnection = new SqlConnection(sqlCon);
             SqlCommand sqlCommand = new SqlCommand(sqlConsulta, sqlConnection);
