@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller\ConectaSQL.cs" />
+    <Compile Include="Controller\GuardarUser.cs" />
     <Compile Include="Modelo\Consultor.cs" />
     <Compile Include="Modelo\CriptoMoedas.cs" />
     <Compile Include="View\FormBackup.cs">

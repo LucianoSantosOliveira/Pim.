@@ -7,18 +7,32 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace WindowsFormsApp1
 {
     public partial class FormInicial : Form
     {
+        
+
+        private string ReadUser()
+        {
+            String User;
+
+            User = File.ReadAllText(@"C:\Users\lucianoq\source\repos\PIMM\WindowsFormsApp1\User.txt");
+            File.Delete(@"C:\Users\lucianoq\source\repos\PIMM\WindowsFormsApp1\User.txt");
+            return User;
+        }
+
         public FormInicial()
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
             this.WindowState = FormWindowState.Normal;
             this.FormBorderStyle = FormBorderStyle.None;
+            LBnomeUsuario.BackColor = Color.White;
         }
+        
 
         private void consultarClientesToolStripMenuItem_Click  (object sender, EventArgs e)
         {
@@ -43,6 +57,13 @@ namespace WindowsFormsApp1
 
         private void FormInicial_Load(object sender, EventArgs e)
         {
+
+
+            LBnomeUsuario.BackColor = Color.FromArgb(0, 197, 150);
+            LBnomeUsuario.BorderStyle = BorderStyle.None;
+
+            LBnomeUsuario.Text = ReadUser();
+
             BTNsair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             BTNsair.FlatAppearance.BorderSize = 0;
             BTNsair.FlatAppearance.MouseDownBackColor = Color.FromArgb(0, 197, 150);
@@ -97,5 +118,7 @@ namespace WindowsFormsApp1
             cadastrarUser.NomeGB("Cadastrar Usuário");
             cadastrarUser.Show();
         }
+
+           
     }
 }
