@@ -58,7 +58,7 @@ namespace WindowsFormsApp1
         private void FormInicial_Load(object sender, EventArgs e)
         {
 
-
+            
             LBnomeUsuario.BackColor = Color.FromArgb(0, 197, 150);
             LBnomeUsuario.BorderStyle = BorderStyle.None;
 
@@ -100,6 +100,19 @@ namespace WindowsFormsApp1
             formRelatorio.Show();
 
             //if (fechar == true) { formRelatorio.Close(); }
+        }
+
+        private void ControleAcesso(int nivel)
+        {
+            if (nivel == 0) { DesabilitaComp(); } else if (nivel == 1) { DesabilitaComp(); };
+        }
+
+        private void DesabilitaComp()
+        {
+            mntransacoes.Visible = false;
+            mnrelatorio.Visible = false;
+            mninicio.Visible = false;
+            mnclientes.Visible = false;
         }
 
         private void mninicio_Click(object sender, EventArgs e)

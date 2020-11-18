@@ -28,12 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormTransacoes));
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.BTNsair = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // radioButton1
@@ -63,7 +69,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(62, 54);
+            this.label1.Location = new System.Drawing.Point(62, 45);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(76, 20);
@@ -92,26 +98,77 @@
             // 
             this.button2.Location = new System.Drawing.Point(276, 269);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 42);
+            this.button2.Size = new System.Drawing.Size(93, 42);
             this.button2.TabIndex = 7;
-            this.button2.Text = "button2";
+            this.button2.Text = "Pesquisar";
             this.button2.UseVisualStyleBackColor = true;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(276, 80);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(148, 26);
+            this.textBox2.TabIndex = 4;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(272, 45);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(55, 20);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Nome ";
+            // 
+            // BTNsair
+            // 
+            this.BTNsair.BackColor = System.Drawing.Color.Transparent;
+            this.BTNsair.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BTNsair.BackgroundImage")));
+            this.BTNsair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BTNsair.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveBorder;
+            this.BTNsair.FlatAppearance.BorderSize = 0;
+            this.BTNsair.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.BTNsair.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.BTNsair.ForeColor = System.Drawing.Color.Transparent;
+            this.BTNsair.Location = new System.Drawing.Point(825, 12);
+            this.BTNsair.Name = "BTNsair";
+            this.BTNsair.Size = new System.Drawing.Size(51, 53);
+            this.BTNsair.TabIndex = 9;
+            this.BTNsair.UseVisualStyleBackColor = false;
+            this.BTNsair.Click += new System.EventHandler(this.BTNsair_Click);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(444, 80);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 62;
+            this.dataGridView1.RowTemplate.Height = 28;
+            this.dataGridView1.Size = new System.Drawing.Size(432, 334);
+            this.dataGridView1.TabIndex = 10;
             // 
             // FormTransacoes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(552, 426);
+            this.ClientSize = new System.Drawing.Size(888, 426);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.BTNsair);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FormTransacoes";
             this.Text = "Transações";
             this.Load += new System.EventHandler(this.FormTransacoes_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -125,5 +182,9 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button BTNsair;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

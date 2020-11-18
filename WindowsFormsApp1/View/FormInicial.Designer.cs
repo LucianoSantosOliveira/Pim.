@@ -56,7 +56,7 @@
             this.atualizarDadosSalvosToolStripMenuItem,
             this.restaurarDadosToolStripMenuItem});
             mnbackup.Name = "mnbackup";
-            mnbackup.Size = new System.Drawing.Size(85, 29);
+            mnbackup.Size = new System.Drawing.Size(85, 30);
             mnbackup.Text = "Backup";
             mnbackup.Click += new System.EventHandler(this.mnbackup_Click);
             // 
@@ -85,42 +85,42 @@
             this.cadastrarNovoUsuárioToolStripMenuItem});
             this.menuprincipal.Location = new System.Drawing.Point(0, 0);
             this.menuprincipal.Name = "menuprincipal";
-            this.menuprincipal.Size = new System.Drawing.Size(1200, 33);
+            this.menuprincipal.Size = new System.Drawing.Size(1200, 36);
             this.menuprincipal.TabIndex = 0;
             this.menuprincipal.Text = "menuStrip1";
             // 
             // mninicio
             // 
             this.mninicio.Name = "mninicio";
-            this.mninicio.Size = new System.Drawing.Size(70, 29);
+            this.mninicio.Size = new System.Drawing.Size(70, 30);
             this.mninicio.Text = "Inicio";
             this.mninicio.Click += new System.EventHandler(this.mninicio_Click);
             // 
             // mntransacoes
             // 
             this.mntransacoes.Name = "mntransacoes";
-            this.mntransacoes.Size = new System.Drawing.Size(113, 29);
+            this.mntransacoes.Size = new System.Drawing.Size(113, 30);
             this.mntransacoes.Text = "Transações";
             this.mntransacoes.Click += new System.EventHandler(this.mntransacoes_Click);
             // 
             // mnclientes
             // 
             this.mnclientes.Name = "mnclientes";
-            this.mnclientes.Size = new System.Drawing.Size(89, 29);
+            this.mnclientes.Size = new System.Drawing.Size(89, 30);
             this.mnclientes.Text = "Clientes";
             this.mnclientes.Click += new System.EventHandler(this.mnclientes_Click);
             // 
             // mnrelatorio
             // 
             this.mnrelatorio.Name = "mnrelatorio";
-            this.mnrelatorio.Size = new System.Drawing.Size(98, 29);
+            this.mnrelatorio.Size = new System.Drawing.Size(98, 30);
             this.mnrelatorio.Text = "Relatório";
             this.mnrelatorio.Click += new System.EventHandler(this.mnrelatorio_Click);
             // 
             // cadastrarNovoUsuárioToolStripMenuItem
             // 
             this.cadastrarNovoUsuárioToolStripMenuItem.Name = "cadastrarNovoUsuárioToolStripMenuItem";
-            this.cadastrarNovoUsuárioToolStripMenuItem.Size = new System.Drawing.Size(212, 29);
+            this.cadastrarNovoUsuárioToolStripMenuItem.Size = new System.Drawing.Size(212, 30);
             this.cadastrarNovoUsuárioToolStripMenuItem.Text = "Cadastrar novo usuário";
             this.cadastrarNovoUsuárioToolStripMenuItem.Click += new System.EventHandler(this.cadastrarNovoUsuárioToolStripMenuItem_Click);
             // 
@@ -133,9 +133,9 @@
             this.groupBox2.Controls.Add(this.LBnomeUsuario);
             this.groupBox2.Controls.Add(this.PBuser);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox2.Location = new System.Drawing.Point(0, 33);
+            this.groupBox2.Location = new System.Drawing.Point(0, 36);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(1200, 659);
+            this.groupBox2.Size = new System.Drawing.Size(1200, 656);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             // 
@@ -146,7 +146,7 @@
             this.PBLogo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PBLogo.BackgroundImage")));
             this.PBLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.PBLogo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PBLogo.Location = new System.Drawing.Point(340, 234);
+            this.PBLogo.Location = new System.Drawing.Point(389, 226);
             this.PBLogo.Name = "PBLogo";
             this.PBLogo.Size = new System.Drawing.Size(430, 198);
             this.PBLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;

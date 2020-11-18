@@ -52,6 +52,7 @@
     <Compile Include="Controller\GuardarUser.cs" />
     <Compile Include="Modelo\Consultor.cs" />
     <Compile Include="Modelo\CriptoMoedas.cs" />
+    <Compile Include="Modelo\Transacao.cs" />
     <Compile Include="View\FormBackup.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -28,6 +28,7 @@ namespace WindowsFormsApp1
         private void frmconsultarclientes_Load(object sender, EventArgs e)
         {
             //Transparencia dos botoes
+            FormBorderStyle = FormBorderStyle.None;
             BTNPesquisar1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             BTNPesquisar1.FlatAppearance.BorderSize = 0;
             BTNPesquisar1.FlatAppearance.MouseDownBackColor = Color.FromArgb(0, 197, 150);

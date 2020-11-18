@@ -51,7 +51,6 @@
             this.PBlogo = new System.Windows.Forms.PictureBox();
             this.BTNAlterar = new System.Windows.Forms.Button();
             this.BTNsair = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtgclientes)).BeginInit();
             this.GBcliente.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PBlogo)).BeginInit();
@@ -223,7 +222,6 @@
             // 
             // GBcliente
             // 
-            this.GBcliente.Controls.Add(this.button1);
             this.GBcliente.Controls.Add(this.BTNSelecionaTodos);
             this.GBcliente.Controls.Add(this.label1);
             this.GBcliente.Controls.Add(this.BTNcadastrarCli);
@@ -243,7 +241,7 @@
             this.GBcliente.Size = new System.Drawing.Size(695, 267);
             this.GBcliente.TabIndex = 17;
             this.GBcliente.TabStop = false;
-            this.GBcliente.Text = "Dados do cliente";            
+            this.GBcliente.Text = "Dados do cliente";
             // 
             // BTNSelecionaTodos
             // 
@@ -308,9 +306,6 @@
             this.BTNsair.UseVisualStyleBackColor = false;
             this.BTNsair.Click += new System.EventHandler(this.BTNsair_Click);
             // 
-            // button1
-            //                    
-            // 
             // frmconsultarclientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -360,6 +355,5 @@
         private System.Windows.Forms.Button BTNsair;
         private System.Windows.Forms.Button BTNPesquisar1;
         private System.Windows.Forms.Button BTNSelecionaTodos;
-        private System.Windows.Forms.Button button1;
     }
 }
