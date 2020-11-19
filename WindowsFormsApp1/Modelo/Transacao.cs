@@ -21,7 +21,7 @@ namespace WindowsFormsApp1.Modelo
         public void SelecionaTransacao(int id,string nomecliente)
         {
 
-            String sqlConsulta = "SELECT * FROM trasacoes WHERE nomeCliente = " + nomecliente;
+            String sqlConsulta = "SELECT * FROM trasacoes WHERE nomeCliente = '" + nomecliente+ "'";
             SqlConnection sqlConnection = new SqlConnection(sqlCon);
             SqlCommand sqlCommand = new SqlCommand(sqlConsulta, sqlConnection);
             SqlDataAdapter dataAdapter = new SqlDataAdapter(sqlConsulta, sqlConnection);
