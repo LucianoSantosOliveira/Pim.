@@ -34,11 +34,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.BTNsair = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.BTNPesquisar1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -94,15 +94,6 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "Selecione uma operação para consulta:";
             // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(276, 269);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(93, 42);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "Pesquisar";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(276, 80);
@@ -148,14 +139,28 @@
             this.dataGridView1.Size = new System.Drawing.Size(432, 334);
             this.dataGridView1.TabIndex = 10;
             // 
+            // BTNPesquisar1
+            // 
+            this.BTNPesquisar1.BackColor = System.Drawing.Color.Transparent;
+            this.BTNPesquisar1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BTNPesquisar1.BackgroundImage")));
+            this.BTNPesquisar1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BTNPesquisar1.Location = new System.Drawing.Point(360, 238);
+            this.BTNPesquisar1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.BTNPesquisar1.Name = "BTNPesquisar1";
+            this.BTNPesquisar1.Size = new System.Drawing.Size(64, 64);
+            this.BTNPesquisar1.TabIndex = 13;
+            this.BTNPesquisar1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.BTNPesquisar1.UseVisualStyleBackColor = false;
+            this.BTNPesquisar1.Click += new System.EventHandler(this.BTNPesquisar1_Click);
+            // 
             // FormTransacoes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(888, 426);
+            this.Controls.Add(this.BTNPesquisar1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.BTNsair);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
@@ -181,10 +186,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button BTNsair;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button BTNPesquisar1;
     }
 }

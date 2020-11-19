@@ -20,8 +20,8 @@ namespace WindowsFormsApp1.Modelo
         string sqlCon = "Data Source =.; Initial Catalog = Pim; Integrated Security = True";
         public void SelecionaTransacao(int id,string nomecliente)
         {
-            
-            String sqlConsulta = "SELECT * FROM transacoes";
+
+            String sqlConsulta = "SELECT * FROM trasacoes WHERE nomeCliente = " + nomecliente;
             SqlConnection sqlConnection = new SqlConnection(sqlCon);
             SqlCommand sqlCommand = new SqlCommand(sqlConsulta, sqlConnection);
             SqlDataAdapter dataAdapter = new SqlDataAdapter(sqlConsulta, sqlConnection);
@@ -38,6 +38,10 @@ namespace WindowsFormsApp1.Modelo
                 throw ex;               
 
             }
+        }
+        public DataTable GetDataTable()
+        {
+            return dataTable;
         }
     }
 }
