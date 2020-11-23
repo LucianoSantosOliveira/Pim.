@@ -39,13 +39,14 @@
             this.BTNsair = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.BTNPesquisar1 = new System.Windows.Forms.Button();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(60, 225);
+            this.radioButton1.Location = new System.Drawing.Point(13, 135);
             this.radioButton1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(139, 24);
@@ -57,7 +58,7 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(60, 278);
+            this.radioButton2.Location = new System.Drawing.Point(13, 169);
             this.radioButton2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(133, 24);
@@ -69,16 +70,16 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(62, 45);
+            this.label1.Location = new System.Drawing.Point(9, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 20);
+            this.label1.Size = new System.Drawing.Size(105, 20);
             this.label1.TabIndex = 3;
-            this.label1.Text = "ID cliente";
+            this.label1.Text = "ID Transação";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(66, 80);
+            this.textBox1.Location = new System.Drawing.Point(17, 39);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(148, 26);
@@ -87,7 +88,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(56, 173);
+            this.label2.Location = new System.Drawing.Point(13, 110);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(289, 20);
@@ -96,7 +97,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(276, 80);
+            this.textBox2.Location = new System.Drawing.Point(202, 37);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(148, 26);
@@ -105,7 +106,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(272, 45);
+            this.label3.Location = new System.Drawing.Point(198, 12);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(55, 20);
@@ -132,11 +133,11 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(444, 80);
+            this.dataGridView1.Location = new System.Drawing.Point(429, 80);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(432, 334);
+            this.dataGridView1.Size = new System.Drawing.Size(455, 343);
             this.dataGridView1.TabIndex = 10;
             // 
             // BTNPesquisar1
@@ -144,7 +145,7 @@
             this.BTNPesquisar1.BackColor = System.Drawing.Color.Transparent;
             this.BTNPesquisar1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BTNPesquisar1.BackgroundImage")));
             this.BTNPesquisar1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BTNPesquisar1.Location = new System.Drawing.Point(360, 238);
+            this.BTNPesquisar1.Location = new System.Drawing.Point(358, 12);
             this.BTNPesquisar1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BTNPesquisar1.Name = "BTNPesquisar1";
             this.BTNPesquisar1.Size = new System.Drawing.Size(64, 64);
@@ -191,5 +192,6 @@
         private System.Windows.Forms.Button BTNsair;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button BTNPesquisar1;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }

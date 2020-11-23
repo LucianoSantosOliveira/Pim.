@@ -43,6 +43,8 @@ namespace WindowsFormsApp1
         {
             this.BackColor = Color.FromArgb(0, 197, 162);
             this.StartPosition = FormStartPosition.CenterScreen;
+            button1.Visible = false;
+            
         }
 
         private void lblestadocivil_Click(object sender, EventArgs e)
@@ -108,6 +110,13 @@ namespace WindowsFormsApp1
         {
             groupBox1.Text = nome;
             BTNConfirmar.Visible = false;
+            button1.Visible = true;
+        }
+
+        public void BotaoConfirmar(int user)
+        {
+            if (user == 1) { BTNConfirmar.Visible = false; button1.Visible = true; }
+            else { button1.Visible = false; BTNConfirmar.Visible = true; }
         }
      
     }

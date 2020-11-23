@@ -129,6 +129,7 @@ namespace WindowsFormsApp1
         {
             FormCadastrarCliente cadastrarUser = new FormCadastrarCliente();
             cadastrarUser.NomeGB("Cadastrar Usuário");
+            cadastrarUser.BotaoConfirmar(1);
             cadastrarUser.Show();
         }
 

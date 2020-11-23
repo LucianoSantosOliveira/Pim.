@@ -89,6 +89,7 @@ namespace WindowsFormsApp1
         {
             FormCadastrarCliente formCadastrarCliente = new FormCadastrarCliente();
             formCadastrarCliente.StartPosition = FormStartPosition.CenterScreen;
+            formCadastrarCliente.BotaoConfirmar(2);
             formCadastrarCliente.Show();
         }
 

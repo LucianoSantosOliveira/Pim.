@@ -55,6 +55,7 @@
             this.BTNConfirmar = new System.Windows.Forms.Button();
             this.DPCliente = new System.Windows.Forms.DateTimePicker();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -329,6 +330,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.BTNConfirmar);
             this.groupBox1.Controls.Add(this.DPCliente);
             this.groupBox1.Controls.Add(this.lblendereco);
@@ -362,6 +364,17 @@
             this.groupBox1.TabIndex = 38;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Cadastrar Cliente";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(529, 428);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(185, 133);
+            this.button1.TabIndex = 36;
+            this.button1.Text = "Confirmar Cadastro";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.BTNConfirmar_Click);
             // 
             // FormCadastrarCliente
             // 
@@ -407,5 +420,6 @@
         private System.Windows.Forms.Button BTNConfirmar;
         private System.Windows.Forms.DateTimePicker DPCliente;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button button1;
     }
 }
