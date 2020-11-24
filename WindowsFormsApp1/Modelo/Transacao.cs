@@ -14,8 +14,9 @@ namespace WindowsFormsApp1.Modelo
         String cliente;
         String tipo;
         float valor;
+        
 
-        DataTable dataTable = new DataTable();
+         DataTable dataTable = new DataTable();
 
         string sqlCon = "Data Source =.; Initial Catalog = Pim; Integrated Security = True";
         public void SelecionaTransacao(int id,string nomecliente)
@@ -43,5 +44,30 @@ namespace WindowsFormsApp1.Modelo
         {
             return dataTable;
         }
+
+        public void SelecionaPorData(String date)
+        {
+            String sqlConsulta = "SELECT * FROM trasacao WHERE date = '2011-01-10' AND '2011-01-12' " ;
+            SqlConnection sqlConnection = new SqlConnection(sqlCon);
+            SqlCommand sqlCommand = new SqlCommand(sqlConsulta, sqlConnection);
+            SqlDataAdapter dataAdapter = new SqlDataAdapter(sqlConsulta, sqlConnection);
+
+            try
+            {
+                sqlConnection.Open();
+                sqlCommand.ExecuteNonQuery();
+                dataAdapter.Fill(dataTable);
+                sqlConnection.Close();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+
+            }
+        }
     }
-}
+
+        
+    }
+
+

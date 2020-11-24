@@ -43,7 +43,7 @@ namespace WindowsFormsApp1
         {
             this.BackColor = Color.FromArgb(0, 197, 162);
             this.StartPosition = FormStartPosition.CenterScreen;
-            button1.Visible = false;
+            //button1.Visible = false;
             
         }
 

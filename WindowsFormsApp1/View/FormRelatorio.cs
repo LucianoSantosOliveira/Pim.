@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using WindowsFormsApp1.Modelo;
 namespace WindowsFormsApp1
 {
     public partial class FormRelatorio : Form
@@ -40,6 +40,16 @@ namespace WindowsFormsApp1
         private void button2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnemitir_Click(object sender, EventArgs e)
+        {
+            //MessageBox.Show(mskinicial.Text +" "+ mskfinal.Text);
+
+            Transacao transacao = new Transacao();
+            transacao.SelecionaTransacao(0,"Corsair");
+            dataGridView1.DataSource = transacao.GetDataTable();
+            //transacao.SelecionaPorData(mskinicial.Text);
         }
     }
 }
